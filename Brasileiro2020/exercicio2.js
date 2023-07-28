@@ -88,6 +88,37 @@ tabelaBrasileirao.sort(function (a, b) {
     } else true;
 });
 
+const g6 = [
+    {
+        time: "Flamengo",
+        pontos: 71
+        },
+        {
+        time: "Internacional",
+        pontos: 70
+        },
+        {
+        time: "Atlético-MG",
+        potnos: 68
+        },
+        {
+        time: "São Paulo",
+        pontos: 66
+        },
+        {
+        time: "Fluminense",
+        pontos: 64
+        },
+]
+
+g6.sort(function (a, b) {
+    if(a.pontos > b.pontos) {
+        return -1;
+    } else 0;
+});
+
 console.log(tabelaBrasileirao);
+
+console.log("G6: " + g6);
 
 
